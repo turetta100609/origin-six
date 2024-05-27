@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- Icomoon -->
     <link rel="stylesheet" href="./assets/css/icomoon.css">
     <!-- Css -->
@@ -38,42 +40,110 @@
         <!-- HOME -->
         <section class="section" id="home">
             <div class="container grid">
-                <div class="img">
-                    <img src="./assets/img/Img (3).png" alt="Mulher sorrindo fazendo escova em outra mulher">
+                <div class="image">
+                    <img src="./assets/img/Img (3).png" alt="Mulher sorrindo penteando outra mulher">
                 </div>
                 <div class="text">
-                    <h2 class="title "> saúde natural para os seus cabelos</h2>
-                    <p>um salão exclusivo em São Paulo, expecializado em tratamentos naturais</p>
-                    <a href="#" class="button">agendar um horário</a>
+                    <h2 class="title"> Saúde natural para os seus cabelos</h2>
+                    <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais</p>
+                    <a href="#" class="button">Agendar um horário</a>
                 </div>
             </div>
         </section>
         <div class="divider-1"></div>
-        <!-- about -->
-        <section class="section" id="about" id="about">
+        <!-- About -->
+        <section class="section" id="about">
             <div class="container grid">
                 <div class="image">
-                    <img src="./assets/img/Img (4).png" alt="Mulheres posando com equipamento de cortar cabelo">
+                    <img src="./assets/img/Img (4).png" alt="Três mulheres sorrindo com equipamentos de corte de cabelo">
                 </div>
                 <div class="text">
-                    <h2 class="title">sobre nós</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora reiciendis provident veritatis labore unde, itaque quae obcaecati omnis sed! Omnis explicabo minus eligendi rerum consectetur assumenda eveniet ipsum cumque repellendus.</p>
+                    <h2 class="title">Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, perspiciatis rerum? Impedit facilis facere tenetur consequuntur perspiciatis culpa doloremque aliquid asperiores itaque velit. Porro, autem esse? Iure blanditiis ducimus mollitia?</p>
                     <br>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quo sunt, reprehenderit labore eius, atque quia laborum voluptas non maiores iste quis sapiente perspiciatis hic aperiam earum qui veniam architecto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam nulla facilis harum laborum exercitationem perspiciatis error eos fugiat aliquid delectus eius adipisci, alias eum accusamus aperiam totam tempora distinctio!</p>
                     <br>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aut ipsum blanditiis nam dolorem, architecto voluptates ut. Maiores doloremque natus modi sapiente, soluta odit assumenda quas error, dolorem cumque tempore.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt aperiam minus eos asperiores odio quasi deserunt beatae voluptate eum eligendi totam laboriosam quisquam soluta accusantium cumque alias, aliquam nostrum.</p>
                 </div>
             </div>
         </section>
         <div class="divider-2"></div>
-        <!-- services -->
-        <section class="section" id="services"></section>
-        <!-- testimonials -->
-        <section class="section" id="testimonials"></section>
-        <!-- contact -->
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p class="subtitle">Com mais de 10 anos no mercado, o <strong>BeautySalon</strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais. </p>
+                </header>
+                <div class="cards grid">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">terapia capilar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus molestiae numquam voluptas suscipit, veritatis, modi laboriosam accusamus velit fugiat a fuga quas doloribus molestias et quaerat! Dolorum, hic nulla.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">cortes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus molestiae numquam voluptas suscipit, veritatis, modi laboriosam accusamus velit fugiat a fuga quas doloribus molestias et quaerat! Dolorum, hic nulla.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-cosmetic"></i>
+                        <h3 class="title">tratamentos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus molestiae numquam voluptas suscipit, veritatis, modi laboriosam accusamus velit fugiat a fuga quas doloribus molestias et quaerat! Dolorum, hic nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider-1"></div>
+        <!-- Testimonials -->
+        <section class="section" id="testimonials">
+            <div class="container">
+                <header>
+                    <h2 class="title">Depoimentos de quem já passou por aqui.</h2>
+                </header>
+                <div class="testimonials swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p><span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, distinctio perspiciatis dolor dicta suscipit laudantium facilis necessitatibus molestias alias quaerat nam commodi, exercitationem nesciunt itaque. Quidem quia numquam aliquid eos.</p>
+                                <cite>
+                                    <img src="./assets/img/82.jpg" alt="foto de Sheyla Santana">
+                                    Sheyla Santana
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p><span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, distinctio perspiciatis dolor dicta suscipit laudantium facilis necessitatibus molestias alias quaerat nam commodi, exercitationem nesciunt itaque. Quidem quia numquam aliquid eos.</p>
+                                <cite>
+                                    <img src="./assets/img/70.jpg" alt="foto de Catrina Marques">
+                                    Catrina Marques
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p><span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, distinctio perspiciatis dolor dicta suscipit laudantium facilis necessitatibus molestias alias quaerat nam commodi, exercitationem nesciunt itaque. Quidem quia numquam aliquid eos.</p>
+                                <cite>
+                                    <img src="./assets/img/6.jpg" alt="foto de El marco">
+                                    El marco
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- paginação -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <div class="divider-2"></div>
+        <!-- Contact -->
         <section class="section" id="contact"></section>
     </main>
     <footer></footer>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- script -->
     <script src="./src/js/script.js"></script>
 </body>
 
